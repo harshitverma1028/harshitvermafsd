@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    justify-content: center;
+    align-items: center;
+height: 50px;
+width: 400px;
+background-color: black;
+color: white;
+font-weight: bold;
+margin-left: 500px;
+}
+.content{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-color:rgb(84, 89,67,0.8);
+    margin-top: 20px;
+}
+#taskInput{
+    height: 40px;
+    width: 200px;
+}
+#btn1{
+     height: 40px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
