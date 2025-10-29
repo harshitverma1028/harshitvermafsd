@@ -1,0 +1,12 @@
+#hv{
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    text-align: center;
+
+}
