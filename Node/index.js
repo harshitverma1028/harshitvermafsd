@@ -27,5 +27,26 @@
 // fs.writeFileSync("./abes.txt","we are student of abes");
 
 
+// const fs=require('fs');
+// fs.writeFile("./it-b.txt","we are student of  it-a class",()=>{});
+// fr.readFile("./it-b.txt","utf-8",(err,result)=>{
+//     if(err){
+//         console.log("error",err);
+//     }
+//     else{
+//         console.log(result);
+//     }
+// })
+
+// fs.appendFileSync("./it-b.txt",'and i am sad');
+// fs.appendFile("./it-b.txt",'hello hii bye ')
+
+
+
 const fs=require('fs');
-fs.writeFile("./it-b.txt","we are student of  it-a class",()=>{});
+fs.writeFileSync("./a1.txt","we are student of i.t-a class");
+fs.cpSync("./a1.txt","./b1.txt");
+fs.unlinkSync("./a1.txt");
+
+
+
