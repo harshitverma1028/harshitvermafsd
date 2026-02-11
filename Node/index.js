@@ -52,7 +52,11 @@
 const os=require('os');
 console.log("platform",os.platform());
 console.log("userinfo",os.userInfo());
-console.log("arch",os.arch())
+console.log("arch",os.arch());
+console.log("freememory",os.freemem());
+console.log("totalmem",os.totalmem());
+console.log("time",os.uptime());
+console.log(os.hostname());
 
 
 
