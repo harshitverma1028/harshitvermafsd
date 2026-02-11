@@ -43,10 +43,16 @@
 
 
 
-const fs=require('fs');
-fs.writeFileSync("./a1.txt","we are student of i.t-a class");
-fs.cpSync("./a1.txt","./b1.txt");
-fs.unlinkSync("./a1.txt");
+// const fs=require('fs');
+// fs.writeFileSync("./a1.txt","we are student of i.t-a class");
+// fs.cpSync("./a1.txt","./b1.txt");
+// fs.unlinkSync("./a1.txt");
+
+
+const os=require('os');
+console.log("platform",os.platform());
+console.log("userinfo",os.userInfo());
+console.log("arch",os.arch())
 
 
 
